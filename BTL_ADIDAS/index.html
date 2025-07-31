@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>adidas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Manh_Footer -->
+  <div class="giaohang">
+    GIAO HÀNG MIỄN PHÍ CHO THÀNH VIÊN ADICLUB
+  </div>
+
+  <div class="header">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg" alt="">
+    </div>  
+    <div class="giua">
+      <a href="#">GIÀY</a>
+      <a href="#">NAM</a>
+      <a href="#">NỮ</a>
+      <a href="#">TRẺ EM</a>
+      <a href="#">THỂ THAO</a>
+      <a href="#">CÁC NHÃN HIỆU</a>
+      <a href="#">OUTLET</a>
+    </div>
+    <div class="benphai">
+      <a href="nutdangnhap.html"><button>ĐĂNG NHẬP</button></a>
+      <input type="text" id="search" placeholder="Tìm sản phẩm...">
+      <button id="backToTop">↑</button>
+    </div>
+  </div>
+
+  <div class="banner">
+    <div class="colum"><img src="img/messsi.jpg" class="img" alt=""></div>
+    <div class="colum"><img src="img/giay1.avif" class="img" alt=""></div>
+    <div class="colum"><img src="img/messi2.jpg" class="img" alt=""></div>
+  </div>
+
+  <section class="adicolor">
+    <div class="tren">
+      <h2>ADICOLOR</h2>
+      <a href="http://localhost/baitaplon/sanpham.php">VIEW ALL</a>
+    </div>
+    <div class="duoi">
+      <div class="sanpham">
+        <img src="img/KNIT_3S_SKIRT_DJen_JW2661_db01_laydown.avif" alt="">
+        <div class="info">
+          <p class="price">1.000.000đ</p>
+          <p class="name">KNIT 3S SKIRT</p>
+          <p class="brand">Originals</p><br>
+          <button>Mua</button>
+        </div>
+      </div>
+      <div class="sanpham">
+        <img src=" img/Mu_Bong_Chay_Ba_La_Classic_Adicolor_trang_JC6037_01_00_standard.avif" alt="">
+        <div class="info">
+          <p class="price">1.000.000đ</p>
+          <p class="name">Mũ Bóng Chày 3 Lá Classic Adicolor</p>
+          <p class="brand">Originals</p><br>
+          <button>Mua</button>
+        </div>
+      </div>
+      <div class="sanpham">
+        <img src="img/Tui_Hinh_Thoi_Classic_Adicolor_DJen_JD5550_db04_standard.tiff.avif" alt="">
+        <div class="info">
+          <p class="price">1.000.000đ</p>
+          <p class="name">Túi Adicolor</p>
+          <p class="brand">Originals</p><br>
+          <button>Mua</button>
+        </div>
+      </div>
+      <div class="sanpham">
+        <img src="img/Ao_Thun_Logo_3_Bar_Run_Icons_DJen_HR3243_01_laydown.avif" alt="">
+        <div class="info">
+          <p class="price">1.000.000đ</p>
+          <p class="name">Áo Thun 3 Sọc</p>
+          <p class="brand">Originals</p><br>
+          <button>Mua</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Tu_Body -->
+  <div style="display: flex; align-items: center; ">
+    <H1 class="ten">Chế độ màu nền</H1>
+    <div>
+      <button onclick="doiCheDo()">Đổi chế độ</button>
+    </div>
+  </div>
+
+  <div class="banner" onmousemove="xemMoTa(true)" onmouseleave="xemMoTa(false)">
+    <video autoplay muted loop playsinline id="videobanner">
+      <source src="img/FW_25_Low_Profile_Onsite_SEA_Masthead_SEA_DT_2880x1280_1_0d96f00db9.mp4" type="" />
+      Trình duyệt của bạn không hỗ trợ video nền.
+    </video>
+    <div class="mota">
+      <h2>Bộ sưu tập Adidas</h2>
+      <p>Phong cách tối giản, thoải mái và phong cách</p>
+      <a href="sanpham.php">Mua Ngay</a>
+    </div>
+  </div>
+
+  <section class="iconFc">
+    <div class="icon">
+      <b>CLICK & SHOP YOUR CLUB'S KITS</b>
+    </div>
+    <div>
+      <a href="https://www.adidas.com.vn/vi/arsenal"><img src="img/z6809949346900_8f834f4c0bbc2fb4e26d4efa6f913a0a.jpg"
+          alt=""></a>
+      <a href="https://www.adidas.com.vn/vi/real_madrid"><img
+          src="img/z6809949346857_c54b21dd49241f653f44c87a4cd604df.jpg" alt=""></a>
+      <a href="https://www.adidas.com.vn/vi/manchester_united_fc"><img
+          src="img/z6809949346899_1d2ad79aa34817b28ae4ed6cd14b4e63.jpg" alt=""></a>
+      <a href="https://www.adidas.com.vn/vi/juventus"><img src="img/z6809949347032_8ad84f110dedda3a3263aefa4895abab.jpg"
+          alt=""></a>
+      <a href="https://www.adidas.com.vn/vi/fc_bayern_munchen"><img
+          src="img/z6809949377844_ec64529a5c01574c4f3190e8a7728771.jpg" alt=""></a>
+    </div>
+  </section>
+
+  <section class="kits-promo">
+    <h1>ICONIC KITS. TIMELESS LEGACY.</h1>
+    <div class="kits-grid">
+      <div class="kit-card">
+        <img src="img/Arsenal_Away_69847cbe7f.avif" alt="Man Utd 25/26 Kit" width="100%" height="100%">
+        <p><b>Asenal 25/26 Home Kit</b></p>
+        <p>Born from history, made for legends</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img src="img/Man_U_Away_c2694dd67a.avif" alt="Man Utd 25/26 Kit">
+        <p><b>Man Utd 25/26 Home Kit</b></p>
+        <p>Sân khấu đã sẵn sàng cho những giấc mơ</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img src="img/FCB_AWAY_1f9c190962.avif" alt="Man Utd 25/26 Kit">
+        <p><b>Bayern FC 25/26 Home Kit</b></p>
+        <p>Bavarian đích thực - từ trong huyết quản</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img src="img/Real_madrid_Away_b7fb87c848.avif" alt="Man Utd 25/26 Kit">
+        <p><b>Real Madrid 25/26 Home Kit</b></p>
+        <p>Kế thừa di sản sân Bernabéu</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img src="img/Juventus_Away_e3c0c1624f.avif" alt="Man Utd 25/26 Kit">
+        <p><b>Juventus 25/26 Home Kit</b></p>
+        <p>Historic stripes, stitched with pride.</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="kits-promo">
+    <h1>WHAT HOT?</h1>
+    <div class="kits-grid">
+      <div class="kit-card">
+
+        <img
+          src="img/global_edison_chen_clot_stan_smith_originals_fw25_launch_row_hp_navigation_card_teaser_asset_d_9a99ff9d36.avif"
+          alt="Man Utd 25/26 Kit">
+        <p><b>F50</b></p>
+        <p>Thiết kế cho tốc độ</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img src="img/global_sport_apparel_golf_fw25_launch_golf_clp_navigation_card_teaser_2_asset_t_7b183b4339.avif"
+          alt="Man Utd 25/26 Kit">
+        <p><b>Phong cách phù hợp mọi lúc mọi nơi</b></p>
+        <p>Ra sân với phong cách thể thao và cảm giác thoải mái dễ chịu</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img src="img/HP_MGLP_TC_SEA_9c2b190bb9.avif" alt="Man Utd 25/26 Kit">
+        <p><b>Anthony Edwards 1</b></p>
+        <p>Preloved Lime: Cần cù ắt làm nên thành công. Believe That</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img
+          src="img/global_edison_chen_clot_stan_smith_originals_fw25_launch_row_hp_navigation_card_teaser_asset_d_9a99ff9d36.avif"
+          alt="Man Utd 25/26 Kit">
+        <p><b>CLOT Stan Smith Collection By Edison Chen</b></p>
+        <p>Sân khấu đã sẵn sàng cho những giấc mơ</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+
+      <div class="kit-card">
+        <img
+          src="img/global_sportswear_soft_lux_digital_stories_fw25_launch_hp_wglp_navigation_card_teaser_1_d_477ae54c77.avif"
+          alt="Man Utd 25/26 Kit">
+        <p><b>Sống trong Soft Lux</b></p>
+        <p>Vẻ ngoài thư thái, cảm giác sang trọng</p>
+        <a href="sanpham.php">Mua ngay</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- An_Body_Footer -->
+   <div class="phan-3">
+        <div class="tieu-de">
+            <ul>
+                <li><a href="https://www.adidas.com.vn/vi/bong_da">FOOTBALL</a></li>
+                <li><a href="https://www.adidas.com.vn/vi/smiley">SMILEY</a></li>
+                <li><a href="https://www.adidas.com.vn/vi/danh_gon">ORGINALS GOLF</a></li>
+                <li><a href="https://www.adidas.com.vn/vi/motorsport">MOTORSPORT</a></li>
+            </ul>
+        </div>
+
+        <div class="dep-slide">
+            <div class="title-dep">
+                <a href="https://www.adidas.com.vn/vi/dep-adilette/JR3622.html">
+                    <img src="img/dep-slide.png" alt="" width="100%" height="80%">
+                    <div class="desc-1">
+                        <h5>950.000đ</h5>
+                        <h4>Dép Adilette</h4>
+                        <p>Originals</p>
+                    </div>
+                </a>
+            </div>
+            <div class="title-dep">
+                <a href="https://www.adidas.com.vn/vi/dep-quai-ngang-adilette-aqua/JI1405.html">
+                    <img src="img/dep-slide-1.png" alt="" width="100%" height="80%">
+                    <div class="desc-1">
+                        <h5>650.000đ</h5>
+                        <h4>Dép Adilette Aqua</h4>
+                        <p>Sportwear</p>
+                    </div>
+                </a>
+            </div>
+            <div class="title-dep">
+                <a href="https://www.adidas.com.vn/vi/dep-tre-em-adifom-adilette-x-minecraft/JQ6465.html">
+                    <img src="img/dep-slide-2.png" alt="" width="100%" height="80%">
+                    <div class="desc-1">
+                        <h5>1.400.000đ</h5>
+                        <h4>Dép Adilette X Minecraft</h4>
+                        <p>Kid Originals</p>
+                    </div>
+                </a>
+            </div>
+            <div class="title-dep">
+                <a href="https://www.adidas.com.vn/vi/dep-adilette-25/JR3615.html">
+                    <img src="img/dep-slide-3.png" alt="" width="100%" height="80%">
+                    <div class="desc-1">
+                        <h5>950.000đ</h5>
+                        <h4>Dép Adilette</h4>
+                        <p>Originals</p>
+                    </div>
+                </a>
+            </div>
+        </div>  
+
+        <div class="mercedes-amg">
+            <div class="title-ma">
+                <h4>ADIDAS X MERCEDES-AMG PETRONAS F1</h4>
+            </div>
+            <div class="title-axm">
+                <div class="img-axm">
+                    <a href="https://www.adidas.com.vn/vi/motorsport-quan_ao">
+                        <img src="img/axm-1.png" alt="" width="100%" height="100%">
+                        <p>Quần áo</p>
+                    </a>
+                </div>
+                <div class="img-axm">
+                    <a href="https://www.adidas.com.vn/vi/motorsport-giay">
+                        <img src="img/axm-2.png" alt="" width="100%" height="100%">
+                        <p>Giày</p>
+                    </a>
+                </div>
+                <div class="img-axm">
+                    <a href="https://www.adidas.com.vn/vi/motorsport-phu_kien">
+                        <img src="img/axm-3.png" alt="" width="100%" height="100%">
+                        <p>Phụ kiện</p>
+                    </a>
+                </div>
+                <div class="img-axm">
+                    <a href="https://www.adidas.com.vn/vi/motorsport">
+                        <img src="img/axm-4.png" alt="" width="100%" height="100%">
+                        <p>Tất cả các sản phẩm Motorsport</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="phong-cach">
+            <div class="title-st">
+                <h4>HÃY THỂ HIỆN PHONG CÁCH CỦA BẠN</h4>
+            </div>
+            <div class="title-pc">
+                <div class="title-qc" onclick="openModal(0)">
+                    <img src="img/img-qc.png" alt="" width="100%" height="85%">
+                    <p>XEM SẢN PHẨM</p>
+                </div>
+                <div class="title-qc" onclick="openModal(1)">
+                    <img src="img/img-qc-1.png" alt="" width="100%" height="85%">
+                    <p>XEM SẢN PHẨM</p>
+                </div>
+                <div class="title-qc" onclick="openModal(2)">
+                    <img src="img/img-qc-2.png" alt="" width="100%" height="85%">
+                    <p>XEM SẢN PHẨM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay" id="popup">
+            <div class="modal-content">
+                <div>
+                    <button class="close-button" onclick="closeModal()"><i class="fa fa-times"></i></button>
+                </div>
+                <div class="img-model">
+                    <img id="popup-img" src="" alt="" width="100%", height="100%">
+                </div>
+                <div class="mo-ta">
+                    <a id="popup-link" href=""><img id="img-link" src="" alt="" width="100%", height="100%"></a>
+                    <h4 id="popup-price"></h4>
+                    <h5 id="popup-name"></h5>
+                    <p id="popup-desc"></p>
+                </div>
+            </div>
+         </div>
+
+        <div class="bio">
+            <div class="bio-1">
+                <h1>CỬA HÀNG THỂ THAO ADIDAS – HIỆU NĂNG, PHONG CÁCH & ĐỔI MỚI TỪ NĂM 1949</h1>
+                <p>Thể thao nâng cao sức khoẻ. Giúp bạn luôn tĩnh tâm. Kết nối chúng ta. Thông qua thể thao, chúng ta có sức mạnh để thay đổi cuộc sống—bằng những câu chuyện về các vận động viên truyền cảm hứng, công nghệ đột phá và bằng cách giúp bạn đứng lên và vận động.</p>
+                <p>Tìm kiếm trang phục thể thao hiệu suất cao được ứng dụng công nghệ tiên tiến nhất để giúp bạn bứt phá giới hạn. Dù bạn là một runner, cầu thủ bóng rổ, cầu thủ bóng đá hay đơn giản chỉ là người yêu thích vận động, cửa hàng thể thao của chúng tôi chính là nơi dành cho bạn. Chúng tôi giúp bạn tập luyện chăm chỉ hơn, chạy nhanh hơn và tiến xa hơn với những sản phẩm luôn đồng hành cùng từng chuyển động và mục tiêu của bạn.</p>
+                <p>Khám phá cửa hàng trực tuyến của adidas để cập nhật những bộ sưu tập mới nhất, nơi công nghệ tiên tiến hòa quyện cùng phong cách. Cửa hàng thể thao adidas mang đến trang phục hiệu năng cao cho mọi cấp độ—dù bạn là vận động viên chuyên nghiệp, người yêu thể thao hay chỉ mới bắt đầu hành trình tập luyện. Với cửa hàng trực tuyến của chúng tôi, bạn có thể tiếp cận những trang bị mới nhất, được thiết kế để chuyển động, dù bạn ở bất kỳ đâu.</p>
+                <p>Cửa hàng thể thao adidas không chỉ là nơi mua sắm—đây còn là không gian dành cho những người sáng tạo muốn nâng tầm cuộc chơi và định nghĩa lại giới hạn của bản thân. Tại adidas, chúng tôi hợp tác với những tên tuổi hàng đầu trong ngành để cùng sáng tạo, đảm bảo từng món đồ không chỉ hỗ trợ vận động mà còn thể hiện cá tính và phong cách sống năng động. Dù môn thể thao của bạn là gì, cửa hàng thể thao adidas luôn sẵn sàng đồng hành, giúp bạn tiến từng bước vững chắc trên hành trình chinh phục đỉnh cao.</p>
+                <img src="img/logo_adidas.png" alt="">
+            </div>
+            <div class="bio-2">
+                <h2>TRỞ THÀNH HỘI VIÊN & HƯỞNG ƯU ĐÃI 15%</h2>
+                <button type="button">
+                    <a href="signup.html">ĐĂNG KÝ MIỄN PHÍ</a>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="bio-3">
+                <div class="san-pham">
+                    <h4>SẢN PHẨM</h4>
+                    <ul>
+                        <li><a href="https://www.adidas.com.vn/vi/giay">Giày</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/quan_ao">Quần áo</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/phu_kien">Phụ kiện</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/new_arrivals">Hàng mới về</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/release-dates">Release Dates</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/en/top_sellers">Top Sellers</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/member_exclusive">Member Exclusives</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/member_exclusive">Outlet</a></li>
+                    </ul>
+                </div>
+                <div class="san-pham">
+                    <h4>THỂ THAO</h4>
+                    <ul>
+                        <li><a href="https://www.adidas.com.vn/vi/chay">Chạy</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/danh_gon">Đánh gôn</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/gym_training">Gym & Training</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/bong_da?grid=true">Bóng đá</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/bong_ro">Bóng rổ</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/quan_vot?grid=true">Quần vợt</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/ngoai_troi">Ngoài trời</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/boi_loi">Bơi lội</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/motorsport">Motorsport</a></li>
+                        <li><br></li>
+                    </ul>
+                </div>
+                <div class="san-pham">
+                    <h4>BỘ SƯU TẬP</h4>
+                    <ul>
+                        <li><a href="https://www.adidas.com.vn/vi/pharrell">Pharrell Williams</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/ultraboost-chay">Ultra Boost</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/pureboost">Pureboost</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/predator">Predator</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/superstar">Superstar</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/stan_smith">Stan Smith</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/nmd">NMD</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/adicolor">Adicolor</a></li>
+                    </ul>
+                </div>
+                <div class="san-pham">
+                    <h4>THÔNG TIN VỀ CÔNG TY</h4>
+                    <ul>
+                        <li><a href="https://www.adidas-group.com/en/">Giới Thiệu Về Chúng Tôi</a></li>
+                        <li><br></li>
+                        <li><a href="https://careers.adidas-group.com/">Cơ Hội Nghề Nghiệp</a></li>
+                        <li><br></li>
+                        <li><a href="https://news.adidas.com/">Tin tức</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/blog">adidas stories</a></li>
+                    </ul>
+                </div>
+                <div class="san-pham">
+                    <h4>HỖ TRỢ</h4>
+                    <ul>
+                        <li><a href="https://www.adidas.com.vn/vi/help">Trợ Giúp</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/stores#/">Công cụ tìm kiếm cửa hàng</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/help?hcid=SIZE_GUIDE">Biểu Đồ Kích Cỡ</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/help?hcid=PAYMENT">Thanh toán</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/help?hcid=DELIVERY">Giao hàng</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/help?hcid=RETURNS_AND_REFUNDS">Trả Hàng & Hoàn Tiền</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/help?hcid=VOUCHERS_GIFT_CARDS">Khuyến mãi</a></li>
+                        <li><br></li>
+                        <li><a href="https://www.adidas.com.vn/vi/help/sea-contact/contact-us">Trợ Giúp Dịch Vụ Khách Hàng</a></li>
+                    </ul>
+                </div>
+                <div class="san-pham">
+                    <h4>THEO DÕI CHÚNG TÔI</h4>
+                    <ul class="icon">
+                        <li><a href="https://www.facebook.com/adidasVN/?brand_redir=182162001806727#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><br></li>
+                        <li><a href="https://www.instagram.com/adidas/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><br></li>
+                        <li><a href="https://x.com/adidas"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><br></li>
+                        <li><a href="https://www.pinterest.com/adidas/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        <li><br></li>
+                        <li><a href="https://www.youtube.com/c/adidas"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="line">
+
+    <div class="footer">
+        <a href="" class="set-up">Cài Đặt Cookie</a>
+        <span>|</span>
+        <a href="">Chính sách Bảo mật</a>
+        <span>|</span>
+        <a href="">Điều Khoản và Điều Kiện</a>
+        <span>|</span>
+        <a href="">XUẤT BẢN BỞI</a>
+        <span>|</span>
+        <a href="">© 2020 Công ty TNHH adidas Việt Nam</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
